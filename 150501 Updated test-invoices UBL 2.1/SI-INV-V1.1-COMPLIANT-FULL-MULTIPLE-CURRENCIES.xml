@@ -307,7 +307,7 @@
 		<cbc:AllowanceTotalAmount currencyID="EUR">150</cbc:AllowanceTotalAmount>
 		<cbc:ChargeTotalAmount currencyID="EUR">0</cbc:ChargeTotalAmount>
 		<cbc:PrepaidAmount currencyID="EUR">0</cbc:PrepaidAmount>
-		<cbc:PayableRoundingAmount currencyID="EUR">0.33</cbc:PayableRoundingAmount>
+		<cbc:PayableRoundingAmount currencyID="EUR">0</cbc:PayableRoundingAmount>
 		<cbc:PayableAmount currencyID="EUR">4366</cbc:PayableAmount>
 	</cac:LegalMonetaryTotal>
 	<cac:InvoiceLine>
@@ -380,7 +380,7 @@
 				<cbc:TaxableAmount currencyID="EUR">2000</cbc:TaxableAmount>
 				<cbc:TaxAmount currencyID="EUR">420</cbc:TaxAmount>
 				<cbc:TransactionCurrencyTaxAmount currencyID="USD">300</cbc:TransactionCurrencyTaxAmount>
-				<cbc:Percent>21</cbc:Percent>
+				<!--<cbc:Percent>21</cbc:Percent>-->
 				<cac:TaxCategory>
 					<cbc:ID schemeID="UNCL5305">S</cbc:ID>
 					<cbc:Percent>21</cbc:Percent>

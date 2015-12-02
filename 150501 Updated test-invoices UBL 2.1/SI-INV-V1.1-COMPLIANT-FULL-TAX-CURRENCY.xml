@@ -305,7 +305,7 @@
     <cbc:AllowanceTotalAmount currencyID="EUR">150</cbc:AllowanceTotalAmount>
     <cbc:ChargeTotalAmount currencyID="EUR">0</cbc:ChargeTotalAmount>
     <cbc:PrepaidAmount currencyID="EUR">0</cbc:PrepaidAmount>
-    <cbc:PayableRoundingAmount currencyID="EUR">0.33</cbc:PayableRoundingAmount>
+    <cbc:PayableRoundingAmount currencyID="EUR">0</cbc:PayableRoundingAmount>
     <cbc:PayableAmount currencyID="EUR">4366</cbc:PayableAmount>
   </cac:LegalMonetaryTotal>
   <cac:InvoiceLine>
@@ -363,7 +363,7 @@
         <cbc:ID>444</cbc:ID>
       </cac:SellersItemIdentification>
       <cac:StandardItemIdentification>
-        <cbc:ID>555</cbc:ID>
+        <cbc:ID schemeID="GTIN">555</cbc:ID>
       </cac:StandardItemIdentification>
       <cac:CommodityClassification>
         <cbc:ItemClassificationCode listID="UNSPSC">33333</cbc:ItemClassificationCode>
@@ -464,7 +464,7 @@
         <cbc:ID>444</cbc:ID>
       </cac:SellersItemIdentification>
       <cac:StandardItemIdentification>
-        <cbc:ID>555</cbc:ID>
+        <cbc:ID schemeID="GTIN">555</cbc:ID>
       </cac:StandardItemIdentification>
       <cac:CommodityClassification>
         <cbc:ItemClassificationCode listID="UNSPSC">33333</cbc:ItemClassificationCode>
