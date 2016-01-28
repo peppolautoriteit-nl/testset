@@ -205,6 +205,8 @@
 			<cbc:TaxableAmount currencyID="EUR">1460.5</cbc:TaxableAmount>
 			<cbc:TaxAmount currencyID="EUR">292.1</cbc:TaxAmount>
 			<cac:TaxCategory>
+				<cbc:ID schemeID="UNCL5305">S</cbc:ID>
+				<cbc:Percent>20</cbc:Percent>
 				<cac:TaxScheme>
 					<cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</cbc:ID>
 				</cac:TaxScheme>
