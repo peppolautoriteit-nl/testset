@@ -202,7 +202,7 @@ urn:www.cenbii.eu:transaction:biitrns010:ver2.0:extended:urn:www.peppol.eu:bis:p
     <cbc:TaxInclusiveAmount currencyID="EUR">418.00</cbc:TaxInclusiveAmount>
 	<cbc:AllowanceTotalAmount currencyID="EUR">40.00</cbc:AllowanceTotalAmount>   
     <cbc:ChargeTotalAmount currencyID="EUR">10.00</cbc:ChargeTotalAmount> 
-    <cbc:PayableAmount currencyID="EUR">418.00</cbc:PayableAmount>
+    <cbc:PayableAmount currencyID="EUR">48.00</cbc:PayableAmount>
 </cac:LegalMonetaryTotal>
 
 <cac:InvoiceLine>
