@@ -40,6 +40,14 @@
 			<cac:PartyName>
 				<cbc:Name>Buyercompany VOF</cbc:Name>
 			</cac:PartyName>
+			<cac:PostalAddress>
+				<cbc:StreetName>Main street</cbc:StreetName>
+				<cbc:CityName>Big city</cbc:CityName>
+				<cbc:PostalZone>54321</cbc:PostalZone>
+				<cac:Country>
+					<cbc:IdentificationCode listAgencyID="6" listID="ISO3166-1:Alpha2">NL</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:PostalAddress>
             <cac:PartyLegalEntity>
                     <cbc:RegistrationName>Buyer Company VOF</cbc:RegistrationName>
                     <cbc:CompanyID schemeAgencyID="82" schemeID="NL:KVK">12344567890</cbc:CompanyID>
@@ -59,10 +67,10 @@
 		</cac:TaxCategory>
 	</cac:AllowanceCharge>
 	<cac:TaxTotal>
-		<cbc:TaxAmount currencyID="EUR">20.0</cbc:TaxAmount>
+		<cbc:TaxAmount currencyID="EUR">21.0</cbc:TaxAmount>
 		<cac:TaxSubtotal>
-			<cbc:TaxableAmount currencyID="EUR">200.0</cbc:TaxableAmount>
-			<cbc:TaxAmount currencyID="EUR">20.0</cbc:TaxAmount>
+			<cbc:TaxableAmount currencyID="EUR">210.0</cbc:TaxableAmount>
+			<cbc:TaxAmount currencyID="EUR">21.0</cbc:TaxAmount>
 			<cac:TaxCategory>
 				<cbc:ID schemeID="UNCL5305">S</cbc:ID>
 				<cbc:Percent>10</cbc:Percent>
@@ -75,19 +83,19 @@
 	<cac:LegalMonetaryTotal>
 		<cbc:LineExtensionAmount currencyID="EUR">200</cbc:LineExtensionAmount>
 		<cbc:TaxExclusiveAmount currencyID="EUR">210</cbc:TaxExclusiveAmount>
-		<cbc:TaxInclusiveAmount currencyID="EUR">230</cbc:TaxInclusiveAmount>
+		<cbc:TaxInclusiveAmount currencyID="EUR">231</cbc:TaxInclusiveAmount>
 		<cbc:ChargeTotalAmount currencyID="EUR">10</cbc:ChargeTotalAmount>
-		<cbc:PayableAmount currencyID="EUR">230</cbc:PayableAmount>
+		<cbc:PayableAmount currencyID="EUR">231</cbc:PayableAmount>
 	</cac:LegalMonetaryTotal>
 	<cac:InvoiceLine>
 		<cbc:ID>1</cbc:ID>
-		<cbc:InvoicedQuantity unitCode="10">3</cbc:InvoicedQuantity>
+		<cbc:InvoicedQuantity unitCode="10">2</cbc:InvoicedQuantity>
 		<cbc:LineExtensionAmount currencyID="EUR">200</cbc:LineExtensionAmount>
 		<cac:Item>
 			<cbc:Name>Bitcoin Masterclass</cbc:Name>
 		</cac:Item>
 		<cac:Price>
-			<cbc:PriceAmount currencyID="EUR">200</cbc:PriceAmount>
+			<cbc:PriceAmount currencyID="EUR">100</cbc:PriceAmount>
 		</cac:Price>
 	</cac:InvoiceLine>
 </Invoice>

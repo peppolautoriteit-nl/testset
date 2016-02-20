@@ -37,6 +37,14 @@
 			<cac:PartyName>
 				<cbc:Name>Buyercompany VOF</cbc:Name>
 			</cac:PartyName>
+			<cac:PostalAddress>
+				<cbc:StreetName>Main street</cbc:StreetName>
+				<cbc:CityName>Big city</cbc:CityName>
+				<cbc:PostalZone>54321</cbc:PostalZone>
+				<cac:Country>
+					<cbc:IdentificationCode listAgencyID="6" listID="ISO3166-1:Alpha2">NL</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
 				<cbc:CompanyID schemeID="NL:KVK" schemeAgencyID="ZZZ">NL12345678</cbc:CompanyID>
 				<cac:TaxScheme>
@@ -58,7 +66,7 @@
 				<cbc:ID schemeID="UNCL5305">AE</cbc:ID>
 				<cbc:Percent>10</cbc:Percent>
 				<cac:TaxScheme>
-					<cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</cbc:ID>
+					<cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">AE</cbc:ID>
 				</cac:TaxScheme>
 			</cac:TaxCategory>
 		</cac:TaxSubtotal>
@@ -71,13 +79,13 @@
 	</cac:LegalMonetaryTotal>
 	<cac:InvoiceLine>
 		<cbc:ID>1</cbc:ID>
-		<cbc:InvoicedQuantity unitCode="10">3</cbc:InvoicedQuantity>
+		<cbc:InvoicedQuantity unitCode="10">2</cbc:InvoicedQuantity>
 		<cbc:LineExtensionAmount currencyID="EUR">200</cbc:LineExtensionAmount>
 		<cac:Item>
 			<cbc:Name>Bitcoin Masterclass</cbc:Name>
 		</cac:Item>
 		<cac:Price>
-			<cbc:PriceAmount currencyID="EUR">200</cbc:PriceAmount>
+			<cbc:PriceAmount currencyID="EUR">100</cbc:PriceAmount>
 		</cac:Price>
 	</cac:InvoiceLine>
 </Invoice>
