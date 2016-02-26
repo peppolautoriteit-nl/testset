@@ -204,7 +204,7 @@
     <cbc:PaymentChannelCode>Some code</cbc:PaymentChannelCode>
     <cbc:PaymentID schemeID="GLN">334343434343</cbc:PaymentID>
     <cac:CardAccount>
-      <cbc:PrimaryAccountNumberID> </cbc:PrimaryAccountNumberID>
+      <cbc:PrimaryAccountNumberID />
       <cbc:NetworkID>VISA</cbc:NetworkID>
     </cac:CardAccount>
     <cac:PayeeFinancialAccount>

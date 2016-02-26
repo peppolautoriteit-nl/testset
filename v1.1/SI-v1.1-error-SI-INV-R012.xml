@@ -208,7 +208,7 @@
       <cbc:NetworkID>VISA</cbc:NetworkID>
     </cac:CardAccount>
     <cac:PayeeFinancialAccount>
-      <cbc:ID schemeID="IBAN"></cbc:ID>
+      <cbc:ID schemeID="IBAN" />
       <cac:FinancialInstitutionBranch>
         <cbc:ID schemeID="GLN">33403093993</cbc:ID>
         <cac:FinancialInstitution>

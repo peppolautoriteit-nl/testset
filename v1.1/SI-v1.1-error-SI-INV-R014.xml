@@ -212,7 +212,7 @@
       <cac:FinancialInstitutionBranch>
         <cbc:ID schemeID="GLN">33403093993</cbc:ID>
         <cac:FinancialInstitution>
-          <cbc:ID schemeID="BIC"></cbc:ID>
+          <cbc:ID schemeID="BIC" />
           <cbc:Name>Rabobank</cbc:Name>
           <cac:Address>
             <cbc:StreetName>Main street</cbc:StreetName>

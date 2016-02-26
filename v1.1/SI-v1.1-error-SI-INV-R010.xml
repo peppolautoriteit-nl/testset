@@ -205,7 +205,7 @@
     <cbc:PaymentID schemeID="GLN">334343434343</cbc:PaymentID>
     <cac:CardAccount>
       <cbc:PrimaryAccountNumberID>333434</cbc:PrimaryAccountNumberID>
-      <cbc:NetworkID> </cbc:NetworkID>
+      <cbc:NetworkID />
     </cac:CardAccount>
     <cac:PayeeFinancialAccount>
       <cbc:ID schemeID="IBAN">NLING34434343434</cbc:ID>
