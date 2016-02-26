@@ -262,7 +262,7 @@ urn:www.cenbii.eu:transaction:biitrns010:ver2.0:extended:urn:www.peppol.eu:bis:p
         </cac:Item>
         <cac:Price>
               <cbc:PriceAmount currencyID="EUR">85.00</cbc:PriceAmount>
-              <cbc:BaseQuantity unitCode="ZZ">2.00</cbc:BaseQuantity>
+              <cbc:BaseQuantity unitCode="ZZ">1.00</cbc:BaseQuantity>
         </cac:Price>
 </cac:InvoiceLine>
 
