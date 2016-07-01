@@ -283,7 +283,7 @@
       <cbc:TaxAmount currencyID="EUR">117</cbc:TaxAmount>
       <cbc:TransactionCurrencyTaxAmount currencyID="EUR">5</cbc:TransactionCurrencyTaxAmount>
       <cac:TaxCategory>
-        <cbc:ID schemeID="UNCL5305">AA</cbc:ID>
+        <cbc:ID schemeID="UNCL5305">S</cbc:ID>
         <cbc:Percent>6</cbc:Percent>
         <cac:TaxScheme>
           <cbc:ID schemeAgencyID="6" schemeID="UN/ECE 5153">VAT</cbc:ID>
