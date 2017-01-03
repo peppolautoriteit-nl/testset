@@ -5,6 +5,7 @@
   <cbc:CustomizationID>urn:www.cenbii.eu:transaction:biitrns010:ver2.0:extended:urn:www.peppol.eu:bis:peppol4a:ver2.0:extended:urn:www.simplerinvoicing.org:si:si-ubl:ver1.2</cbc:CustomizationID>
   <cbc:ProfileID>urn:www.cenbii.eu:profile:bii04:ver2.0</cbc:ProfileID>
   <cbc:ID>4780647806</cbc:ID>
+  <cbc:IssueDate>2016-01-01</cbc:IssueDate>
   <cbc:DueDate>2016-02-01</cbc:DueDate>
   <cbc:InvoiceTypeCode listID="UNCL1001" listAgencyID="6">380</cbc:InvoiceTypeCode>
   <cbc:Note>Kleine opmerking</cbc:Note>
@@ -27,9 +28,6 @@
   </cac:AdditionalDocumentReference>
   <cac:AccountingSupplierParty>
     <cac:Party>
-      <cac:PartyName>
-        <cbc:Name>SimplerInvoicing</cbc:Name>
-      </cac:PartyName>
       <cac:PostalAddress>
         <cbc:StreetName>SimplerStraat</cbc:StreetName>
         <cbc:BuildingNumber>12</cbc:BuildingNumber>
@@ -98,7 +96,7 @@
     </cac:DeliveryLocation>
   </cac:Delivery>
   <cac:PaymentMeans>
-    <cbc:PaymentMeansCode listID="UNCL4461">31</cbc:PaymentMeansCode>
+    <cbc:PaymentMeansCode listID="UNCL4461">30</cbc:PaymentMeansCode>
     <cbc:PaymentDueDate>2016-01-01</cbc:PaymentDueDate>
     <cac:PayeeFinancialAccount>
       <cbc:ID schemeID='IBAN'>NL23ABNA0123456789</cbc:ID>

@@ -10,7 +10,7 @@
   <cbc:InvoiceTypeCode listID="UNCL1001" listAgencyID="6">380</cbc:InvoiceTypeCode>
   <cbc:Note>Kleine opmerking</cbc:Note>
   <cbc:TaxPointDate>2016-01-01</cbc:TaxPointDate>
-  <cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listAgencyID="6">EUR</cbc:DocumentCurrencyCode>
+  <cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listAgencyID="6"/>
   <cbc:AccountingCost>SI22315</cbc:AccountingCost>
   <cac:InvoicePeriod>
     <cbc:StartDate>2016-01-01</cbc:StartDate>
@@ -19,6 +19,13 @@
   <cac:OrderReference>
     <cbc:ID>2016-441</cbc:ID>
   </cac:OrderReference>
+  <cac:AdditionalDocumentReference>
+    <cbc:ID>Doc2</cbc:ID>
+    <cbc:DocumentType>Text</cbc:DocumentType>
+    <cac:Attachment>
+      <cbc:EmbeddedDocumentBinaryObject mimeCode="text/csv">QWxsLHlvdXIsU2ltcGxlckludm9pY2UsYXJlLGJlbG9uZyx0byx1cwo=</cbc:EmbeddedDocumentBinaryObject>
+    </cac:Attachment>
+  </cac:AdditionalDocumentReference>
   <cac:AccountingSupplierParty>
     <cac:Party>
       <cac:PartyName>
@@ -92,7 +99,7 @@
     </cac:DeliveryLocation>
   </cac:Delivery>
   <cac:PaymentMeans>
-    <cbc:PaymentMeansCode listID="UNCL4461">123</cbc:PaymentMeansCode>
+    <cbc:PaymentMeansCode listID="UNCL4461">31</cbc:PaymentMeansCode>
     <cbc:PaymentDueDate>2016-01-01</cbc:PaymentDueDate>
     <cac:PayeeFinancialAccount>
       <cbc:ID schemeID='IBAN'>NL23ABNA0123456789</cbc:ID>
