@@ -11,6 +11,7 @@
   <cbc:Note>Kleine opmerking</cbc:Note>
   <cbc:TaxPointDate>2016-01-01</cbc:TaxPointDate>
   <cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listAgencyID="6">EUR</cbc:DocumentCurrencyCode>
+  <cbc:AccountingCostCode listName="RGS" listVersionID="1.1">BIvaSofVvpInv</cbc:AccountingCostCode>
   <cbc:AccountingCost>SI22315</cbc:AccountingCost>
   <cac:InvoicePeriod>
     <cbc:StartDate>2016-01-01</cbc:StartDate>
@@ -32,11 +33,12 @@
         <cbc:Name>SimplerInvoicing</cbc:Name>
       </cac:PartyName>
       <cac:PostalAddress>
-        <cbc:StreetName>Main street</cbc:StreetName>
-        <cbc:CityName>Big city</cbc:CityName>
-        <cbc:PostalZone>54321</cbc:PostalZone>
+        <cbc:StreetName>SimplerStraat</cbc:StreetName>
+        <cbc:BuildingNumber>12</cbc:BuildingNumber>
+        <cbc:CityName>Simplenbosch</cbc:CityName>
+        <cbc:PostalZone>6621SQ</cbc:PostalZone>
         <cac:Country>
-          <cbc:IdentificationCode listAgencyID="6" listID="ISO3166-1:Alpha2">NL</cbc:IdentificationCode>
+          <cbc:IdentificationCode listID="ISO3166-1:Alpha2" listAgencyID="6">NL</cbc:IdentificationCode>
         </cac:Country>
       </cac:PostalAddress>
       <cac:PartyTaxScheme>
