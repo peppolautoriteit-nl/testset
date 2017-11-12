@@ -138,6 +138,8 @@
     <cbc:ID>5</cbc:ID>
     <cbc:InvoicedQuantity unitCode="ZZ">1.00</cbc:InvoicedQuantity>
     <cbc:LineExtensionAmount currencyID="EUR">50.00</cbc:LineExtensionAmount>
+    <cbc:AccountingCostCode listName="RGS" listVersionID="1.1">BIvaSofVvpInv</cbc:AccountingCostCode>
+    <cbc:AccountingCost>RGS BIvaSofVvpInv</cbc:AccountingCost>
     <cac:OrderLineReference>
       <cbc:LineID>1</cbc:LineID>
     </cac:OrderLineReference>
