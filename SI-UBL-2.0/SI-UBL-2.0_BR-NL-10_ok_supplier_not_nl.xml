@@ -26,7 +26,7 @@
                 <cbc:CityName>InvoicingStad</cbc:CityName>
                 <cbc:PostalZone>1111 ZZ</cbc:PostalZone>
                 <cac:Country>
-                    <cbc:IdentificationCode>NL</cbc:IdentificationCode>
+                    <cbc:IdentificationCode>SE</cbc:IdentificationCode>
                 </cac:Country>
             </cac:PostalAddress>
             <cac:PartyTaxScheme>
@@ -51,12 +51,12 @@
                 <cbc:CityName>Grotestad</cbc:CityName>
                 <cbc:PostalZone>1111 AA</cbc:PostalZone>
                 <cac:Country>
-                    <cbc:IdentificationCode>SE</cbc:IdentificationCode>
+                    <cbc:IdentificationCode>NL</cbc:IdentificationCode>
                 </cac:Country>
             </cac:PostalAddress>
             <cac:PartyLegalEntity>
                 <cbc:RegistrationName>Ontvanger</cbc:RegistrationName>
-                <cbc:CompanyID schemeID="0107">57151520</cbc:CompanyID>
+                <cbc:CompanyID schemeID="0106">11111111</cbc:CompanyID>
             </cac:PartyLegalEntity>
             <cac:Contact>
                 <cbc:Name>Dhr. O Ntvanger</cbc:Name>

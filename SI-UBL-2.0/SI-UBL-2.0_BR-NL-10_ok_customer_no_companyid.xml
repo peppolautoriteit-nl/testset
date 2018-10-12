@@ -19,8 +19,8 @@
     <cac:AccountingSupplierParty>
         <cac:Party>
             <cac:PostalAddress>
-                <cbc:StreetName>SimplerStraat 1</cbc:StreetName>
-                <cbc:CityName>Invoicingstad</cbc:CityName>
+                <cbc:StreetName>Simplerstraat 1</cbc:StreetName>
+                <cbc:CityName>InvoicingStad</cbc:CityName>
                 <cbc:PostalZone>1111 ZZ</cbc:PostalZone>
                 <cac:Country>
                     <cbc:IdentificationCode>NL</cbc:IdentificationCode>
@@ -29,7 +29,7 @@
             <cac:PartyTaxScheme>
                 <cbc:CompanyID>NL1111.11.111.B.01</cbc:CompanyID>
                 <cac:TaxScheme>
-                    <cbc:ID>VA</cbc:ID>
+                    <cbc:ID>VAT</cbc:ID>
                 </cac:TaxScheme>
             </cac:PartyTaxScheme>
             <cac:PartyLegalEntity>
@@ -60,64 +60,108 @@
         <cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
         <cbc:PaymentID>Deb. 10202 / Fact. 12115118</cbc:PaymentID>
         <cac:PayeeFinancialAccount>
-            <cbc:ID>NL57 RABO 0107307510</cbc:ID>
+            <cbc:ID>NL11 BANK 1111111111</cbc:ID>
         </cac:PayeeFinancialAccount>
     </cac:PaymentMeans>
     <cac:PaymentMeans>
         <cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
         <cbc:PaymentID>Deb. 10202 / Fact. 12115118</cbc:PaymentID>
         <cac:PayeeFinancialAccount>
-            <cbc:ID>NL03 INGB 0004489902</cbc:ID>
+            <cbc:ID>NL11 BANK 1111111112</cbc:ID>
         </cac:PayeeFinancialAccount>
     </cac:PaymentMeans>
     <cac:TaxTotal>
-        <cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
+        <cbc:TaxAmount currencyID="EUR">27.00</cbc:TaxAmount>
         <cac:TaxSubtotal>
-            <cbc:TaxableAmount currencyID="EUR">0.00</cbc:TaxableAmount>
-            <cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
-            <cac:TaxCategory>
-                <cbc:ID>S</cbc:ID>
-                <cbc:Percent>6</cbc:Percent>
-                <cac:TaxScheme>
-                    <cbc:ID>VA</cbc:ID>
-                </cac:TaxScheme>
-            </cac:TaxCategory>
-        </cac:TaxSubtotal>
-        <cac:TaxSubtotal>
-        <!-- 37,9 -->
-            <cbc:TaxableAmount currencyID="EUR">0.00</cbc:TaxableAmount>
-            <cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
+            <cbc:TaxableAmount currencyID="EUR">100.00</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="EUR">21.00</cbc:TaxAmount>
             <cac:TaxCategory>
                 <cbc:ID>S</cbc:ID>
                 <cbc:Percent>21</cbc:Percent>
                 <cac:TaxScheme>
-                    <cbc:ID>VA</cbc:ID>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="EUR">100.00</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="EUR">6.00</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID>S</cbc:ID>
+                <cbc:Percent>6</cbc:Percent>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
                 </cac:TaxScheme>
             </cac:TaxCategory>
         </cac:TaxSubtotal>
     </cac:TaxTotal>
     <cac:LegalMonetaryTotal>
-        <cbc:LineExtensionAmount currencyID="EUR">0.00</cbc:LineExtensionAmount>
-        <cbc:TaxExclusiveAmount currencyID="EUR">0.00</cbc:TaxExclusiveAmount>
-        <cbc:TaxInclusiveAmount currencyID="EUR">0.00</cbc:TaxInclusiveAmount>
-        <cbc:PayableAmount currencyID="EUR">0.00</cbc:PayableAmount>
+        <cbc:LineExtensionAmount currencyID="EUR">200.00</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">200.00</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">227.00</cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="EUR">227.00</cbc:PayableAmount>
     </cac:LegalMonetaryTotal>
     <cac:InvoiceLine>
         <cbc:ID>1</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="EA">2</cbc:InvoicedQuantity>
-        <cbc:LineExtensionAmount currencyID="EUR">0.00</cbc:LineExtensionAmount>
+        <cbc:InvoicedQuantity unitCode="EA">4</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">200.00</cbc:LineExtensionAmount>
         <cac:Item>
-            <cbc:Name>Uitvoer test CEF eInvoicing</cbc:Name>
+            <cbc:Name>SimplerInvoicing test invoice</cbc:Name>
+            <cac:SellersItemIdentification>
+                <cbc:ID>166022</cbc:ID>
+            </cac:SellersItemIdentification>
             <cac:ClassifiedTaxCategory>
                 <cbc:ID>S</cbc:ID>
-                <cbc:Percent>6</cbc:Percent>
+                <cbc:Percent>21</cbc:Percent>
                 <cac:TaxScheme>
-                    <cbc:ID>VA</cbc:ID>
+                    <cbc:ID>VAT</cbc:ID>
                 </cac:TaxScheme>
             </cac:ClassifiedTaxCategory>
        </cac:Item>
         <cac:Price>
-            <cbc:PriceAmount currencyID="EUR">0.00</cbc:PriceAmount>
+            <cbc:PriceAmount currencyID="EUR">50.00</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">100.00</cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Name>Testing procedures</cbc:Name>
+            <cac:SellersItemIdentification>
+                <cbc:ID>661813</cbc:ID>
+            </cac:SellersItemIdentification>
+            <cac:ClassifiedTaxCategory>
+                <cbc:ID>S</cbc:ID>
+                <cbc:Percent>6</cbc:Percent>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">100.00</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">-1</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">-100.00</cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Name>Previous Test Invoice returned</cbc:Name>
+            <cac:SellersItemIdentification>
+                <cbc:ID>438146</cbc:ID>
+            </cac:SellersItemIdentification>
+            <cac:ClassifiedTaxCategory>
+                <cbc:ID>S</cbc:ID>
+                <cbc:Percent>21</cbc:Percent>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">100.00</cbc:PriceAmount>
         </cac:Price>
     </cac:InvoiceLine>
 </Invoice>
