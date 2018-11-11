@@ -106,7 +106,7 @@
 
     <cac:InvoiceLine>
         <cbc:ID>1</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="C62">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">100.00</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>SimplerInvoicing test invoice 1</cbc:Name>
@@ -128,7 +128,7 @@
 
     <cac:InvoiceLine>
         <cbc:ID>2</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="C62">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">100.00</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>SimplerInvoicing test invoice 2</cbc:Name>
@@ -150,7 +150,7 @@
 
     <cac:InvoiceLine>
         <cbc:ID>3</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="C62">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">100.00</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Testing procedures</cbc:Name>
@@ -172,7 +172,7 @@
 
     <cac:InvoiceLine>
         <cbc:ID>4</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="C62">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">100.00</cbc:LineExtensionAmount>
         <cac:TaxTotal>
             <cbc:TaxAmount currencyID="EUR">6.00</cbc:TaxAmount>

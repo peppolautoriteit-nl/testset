@@ -107,7 +107,7 @@
     </cac:LegalMonetaryTotal>
     <cac:InvoiceLine>
         <cbc:ID>1</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="EA">4</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="C62">4</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">300.00</cbc:LineExtensionAmount>
         <cac:AllowanceCharge>
             <cbc:ChargeIndicator>true</cbc:ChargeIndicator>
@@ -134,7 +134,7 @@
     </cac:InvoiceLine>
     <cac:InvoiceLine>
         <cbc:ID>2</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="C62">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">100.00</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Testing procedures</cbc:Name>
@@ -155,7 +155,7 @@
     </cac:InvoiceLine>
     <cac:InvoiceLine>
         <cbc:ID>3</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="EA">-1</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="C62">-1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">-100.00</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Previous Test Invoice returned</cbc:Name>

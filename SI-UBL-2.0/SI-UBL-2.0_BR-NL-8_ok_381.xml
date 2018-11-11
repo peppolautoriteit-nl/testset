@@ -116,7 +116,7 @@
     </cac:LegalMonetaryTotal>
     <cac:CreditNoteLine>
         <cbc:ID>1</cbc:ID>
-        <cbc:CreditedQuantity unitCode="EA">4</cbc:CreditedQuantity>
+        <cbc:CreditedQuantity unitCode="C62">4</cbc:CreditedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">200.00</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>SimplerInvoicing test invoice</cbc:Name>
@@ -137,7 +137,7 @@
     </cac:CreditNoteLine>
     <cac:CreditNoteLine>
         <cbc:ID>2</cbc:ID>
-        <cbc:CreditedQuantity unitCode="EA">1</cbc:CreditedQuantity>
+        <cbc:CreditedQuantity unitCode="C62">1</cbc:CreditedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">100.00</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Testing procedures</cbc:Name>
@@ -158,7 +158,7 @@
     </cac:CreditNoteLine>
     <cac:CreditNoteLine>
         <cbc:ID>3</cbc:ID>
-        <cbc:CreditedQuantity unitCode="EA">-1</cbc:CreditedQuantity>
+        <cbc:CreditedQuantity unitCode="C62">-1</cbc:CreditedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">-100.00</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>Previous Test CreditNote returned</cbc:Name>

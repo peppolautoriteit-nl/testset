@@ -82,7 +82,7 @@
     </cac:LegalMonetaryTotal>
     <cac:InvoiceLine>
         <cbc:ID>1</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="EA">-4</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="C62">-4</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">-100.00</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>SimplerInvoicing test invoice nil payment</cbc:Name>
