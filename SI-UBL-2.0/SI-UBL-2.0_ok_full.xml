@@ -195,7 +195,7 @@
       <cac:TaxCategory>
         <cbc:ID schemeID="UNCL5305">E</cbc:ID>
         <cbc:Percent>0</cbc:Percent>
-        <cbc:TaxExemptionReasonCode listID="CWA 15577" listAgencyID="ZZZ">AAM</cbc:TaxExemptionReasonCode>
+        <cbc:TaxExemptionReasonCode listID="CWA 15577" listAgencyID="ZZZ">vatex-eu-151-1b</cbc:TaxExemptionReasonCode>
         <cbc:TaxExemptionReason>Exempt New Means of Transport</cbc:TaxExemptionReason>
         <cac:TaxScheme>
           <cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</cbc:ID>
