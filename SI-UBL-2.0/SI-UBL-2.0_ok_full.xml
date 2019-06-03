@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
-  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
   <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:nen.nl:nlcius:v1.0</cbc:CustomizationID>
   <cbc:ProfileID>urn:www.cenbii.eu:profile:bii04:ver1.0</cbc:ProfileID>
   <cbc:ID>TOSL108</cbc:ID>
   <cbc:IssueDate>2009-12-15</cbc:IssueDate>
-  <cbc:InvoiceTypeCode listID="UNCL1001" listAgencyID="6">380</cbc:InvoiceTypeCode>
+  <cbc:InvoiceTypeCode listAgencyID="6">380</cbc:InvoiceTypeCode>
   <cbc:Note>Ordered in our booth at the convention.</cbc:Note>
   <cbc:TaxPointDate>2009-11-30</cbc:TaxPointDate>
-  <cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listAgencyID="6">EUR</cbc:DocumentCurrencyCode>
+  <cbc:DocumentCurrencyCode listAgencyID="6">EUR</cbc:DocumentCurrencyCode>
   <cbc:AccountingCost>Project cost code 123</cbc:AccountingCost>
   <cac:InvoicePeriod>
     <cbc:StartDate>2009-11-01</cbc:StartDate>
@@ -46,13 +45,13 @@
         <cbc:CityName>Big city</cbc:CityName>
         <cbc:PostalZone>54321</cbc:PostalZone>
         <cac:Country>
-          <cbc:IdentificationCode listID="ISO3166-1:Alpha2" listAgencyID="6">DK</cbc:IdentificationCode>
+          <cbc:IdentificationCode>DK</cbc:IdentificationCode>
         </cac:Country>
       </cac:PostalAddress>
       <cac:PartyTaxScheme>
-        <cbc:CompanyID schemeID="0106" schemeAgencyID="ZZZ">NL12345678</cbc:CompanyID>
+        <cbc:CompanyID>NL12345678</cbc:CompanyID>
         <cac:TaxScheme>
-          <cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</cbc:ID>
+          <cbc:ID>VAT</cbc:ID>
         </cac:TaxScheme>
       </cac:PartyTaxScheme>
       <cac:PartyLegalEntity>
@@ -80,11 +79,11 @@
         <cbc:CityName>Anytown</cbc:CityName>
         <cbc:PostalZone>101</cbc:PostalZone>
         <cac:Country>
-          <cbc:IdentificationCode listID="ISO3166-1:Alpha2" listAgencyID="6">NL</cbc:IdentificationCode>
+          <cbc:IdentificationCode>NL</cbc:IdentificationCode>
         </cac:Country>
       </cac:PostalAddress>
       <cac:PartyTaxScheme>
-        <cbc:CompanyID schemeID="BE:VAT" schemeAgencyID="ZZZ">BE54321</cbc:CompanyID>
+        <cbc:CompanyID>BE54321</cbc:CompanyID>
         <cac:TaxScheme>
           <cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</cbc:ID>
         </cac:TaxScheme>
@@ -120,21 +119,18 @@
         <cbc:CityName>DeliveryCity</cbc:CityName>
         <cbc:PostalZone>523427</cbc:PostalZone>
         <cac:Country>
-          <cbc:IdentificationCode listID="ISO3166-1:Alpha2">NL</cbc:IdentificationCode>
+          <cbc:IdentificationCode>NL</cbc:IdentificationCode>
         </cac:Country>
       </cac:Address>
     </cac:DeliveryLocation>
   </cac:Delivery>
   <cac:PaymentMeans>
-    <cbc:PaymentMeansCode listID="UNCL4461">31</cbc:PaymentMeansCode>
+    <cbc:PaymentMeansCode>31</cbc:PaymentMeansCode>
     <cbc:PaymentID>Payref1</cbc:PaymentID>
     <cac:PayeeFinancialAccount>
-      <cbc:ID schemeID="IBAN">NLING34434343434</cbc:ID>
+      <cbc:ID>NLING34434343434</cbc:ID>
       <cac:FinancialInstitutionBranch>
-        <cbc:ID schemeID="0106">87654321</cbc:ID>
-        <cac:FinancialInstitution>
-          <cbc:ID schemeID="BIC">334473847893749</cbc:ID>
-        </cac:FinancialInstitution>
+        <cbc:ID>87654321</cbc:ID>
       </cac:FinancialInstitutionBranch>
     </cac:PayeeFinancialAccount>
   </cac:PaymentMeans>
