@@ -5,11 +5,12 @@
             xmlns:udt="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2"
             xmlns:ccts="urn:un:unece:uncefact:documentation:2"
             xmlns="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
     <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:nen.nl:nlcius:v1.0</cbc:CustomizationID>
     <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
     <cbc:ID>12115118</cbc:ID>
-    <cbc:CreditNoteTypeCode>381</cbc:CreditNoteTypeCode>
     <cbc:IssueDate>2015-01-09</cbc:IssueDate>
+    <cbc:CreditNoteTypeCode>381</cbc:CreditNoteTypeCode>
     <cbc:Note>Alle leveringen zijn franco. Alle prijzen zijn incl. BTW. Betalingstermijn: 14 dagen netto. Prijswijzigingen voorbehouden. Op al onze
     aanbiedingen, leveringen en overeenkomsten zijn van toepassing in de algemene verkoop en leveringsvoorwaarden. Gedeponeerd bij de K.v.K. te
     Amsterdam 25-04-'85##Delivery terms</cbc:Note>
@@ -66,7 +67,6 @@
     </cac:AccountingCustomerParty>
     <cac:PaymentMeans>
         <cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
-        <cbc:PaymentDueDate>2015-01-23</cbc:PaymentDueDate>
         <cbc:PaymentID>Deb. 10202 / Fact. 12115118</cbc:PaymentID>
         <cac:PayeeFinancialAccount>
             <cbc:ID>NL11 BANK 1111111111</cbc:ID>
@@ -74,7 +74,6 @@
     </cac:PaymentMeans>
     <cac:PaymentMeans>
         <cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
-        <cbc:PaymentDueDate>2015-01-23</cbc:PaymentDueDate>
         <cbc:PaymentID>Deb. 10202 / Fact. 12115118</cbc:PaymentID>
         <cac:PayeeFinancialAccount>
             <cbc:ID>NL11 BANK 1111111112</cbc:ID>
