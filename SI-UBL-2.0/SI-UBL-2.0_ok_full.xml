@@ -142,7 +142,7 @@
     <cbc:AllowanceChargeReason>Packing cost</cbc:AllowanceChargeReason>
     <cbc:Amount currencyID="EUR">100</cbc:Amount>
     <cac:TaxCategory>
-      <cbc:ID schemeID="UNCL5305">S</cbc:ID>
+      <cbc:ID>S</cbc:ID>
       <cbc:Percent>21</cbc:Percent>
       <cac:TaxScheme>
         <cbc:ID schemeID="UN/ECE 5153">VAT</cbc:ID>
@@ -154,7 +154,7 @@
     <cbc:AllowanceChargeReason>Promotion discount</cbc:AllowanceChargeReason>
     <cbc:Amount currencyID="EUR">100</cbc:Amount>
     <cac:TaxCategory>
-      <cbc:ID schemeID="UNCL5305">S</cbc:ID>
+      <cbc:ID>S</cbc:ID>
       <cbc:Percent>21</cbc:Percent>
       <cac:TaxScheme>
         <cbc:ID schemeID="UN/ECE 5153">VAT</cbc:ID>
@@ -167,7 +167,7 @@
       <cbc:TaxableAmount currencyID="EUR">1460.5</cbc:TaxableAmount>
       <cbc:TaxAmount currencyID="EUR">292.1</cbc:TaxAmount>
       <cac:TaxCategory>
-        <cbc:ID schemeID="UNCL5305">S</cbc:ID>
+        <cbc:ID>S</cbc:ID>
         <cbc:Percent>20</cbc:Percent>
         <cac:TaxScheme>
           <cbc:ID schemeID="UN/ECE 5153">VAT</cbc:ID>
@@ -178,7 +178,7 @@
       <cbc:TaxableAmount currencyID="EUR">1</cbc:TaxableAmount>
       <cbc:TaxAmount currencyID="EUR">0.1</cbc:TaxAmount>
       <cac:TaxCategory>
-        <cbc:ID schemeID="UNCL5305">S</cbc:ID>
+        <cbc:ID>S</cbc:ID>
         <cbc:Percent>10</cbc:Percent>
         <cac:TaxScheme>
           <cbc:ID schemeID="UN/ECE 5153">VAT</cbc:ID>
@@ -189,7 +189,7 @@
       <cbc:TaxableAmount currencyID="EUR">-25</cbc:TaxableAmount>
       <cbc:TaxAmount currencyID="EUR">0</cbc:TaxAmount>
       <cac:TaxCategory>
-        <cbc:ID schemeID="UNCL5305">E</cbc:ID>
+        <cbc:ID>E</cbc:ID>
         <cbc:Percent>0</cbc:Percent>
         <cbc:TaxExemptionReasonCode listID="CWA 15577">vatex-eu-151-1b</cbc:TaxExemptionReasonCode>
         <cbc:TaxExemptionReason>Exempt New Means of Transport</cbc:TaxExemptionReason>
@@ -247,7 +247,7 @@
         <cbc:ItemClassificationCode listID="SG">65434568</cbc:ItemClassificationCode>
       </cac:CommodityClassification>
       <cac:ClassifiedTaxCategory xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
-        <cbc:ID schemeID="UN/ECE 5305">S</cbc:ID>
+        <cbc:ID>S</cbc:ID>
         <cbc:Percent>20</cbc:Percent>
         <cac:TaxScheme>
           <cbc:ID schemeID="UN/ECE 5153">VAT</cbc:ID>
@@ -291,7 +291,7 @@
         <cbc:ItemClassificationCode listID="SG">65434567</cbc:ItemClassificationCode>
       </cac:CommodityClassification>
       <cac:ClassifiedTaxCategory xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
-        <cbc:ID schemeID="UN/ECE 5305">S</cbc:ID>
+        <cbc:ID>S</cbc:ID>
         <cbc:Percent>10</cbc:Percent>
         <cac:TaxScheme>
           <cbc:ID schemeID="UN/ECE 5153">VAT</cbc:ID>
@@ -325,7 +325,7 @@
         <cbc:ItemClassificationCode listID="SG">65434566</cbc:ItemClassificationCode>
       </cac:CommodityClassification>
       <cac:ClassifiedTaxCategory xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
-        <cbc:ID schemeID="UN/ECE 5305">S</cbc:ID>
+        <cbc:ID>S</cbc:ID>
         <cbc:Percent>10</cbc:Percent>
         <cac:TaxScheme>
           <cbc:ID schemeID="UN/ECE 5153">VAT</cbc:ID>
@@ -364,7 +364,7 @@
         <cbc:ItemClassificationCode listID="SG">65434565</cbc:ItemClassificationCode>
       </cac:CommodityClassification>
       <cac:ClassifiedTaxCategory xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
-        <cbc:ID schemeID="UN/ECE 5305">E</cbc:ID>
+        <cbc:ID>E</cbc:ID>
         <cbc:Percent>0</cbc:Percent>
         <cac:TaxScheme>
           <cbc:ID schemeID="UN/ECE 5153">VAT</cbc:ID>
@@ -399,7 +399,7 @@
         <cbc:ItemClassificationCode listID="SG">65434564</cbc:ItemClassificationCode>
       </cac:CommodityClassification>
       <cac:ClassifiedTaxCategory xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
-        <cbc:ID schemeID="UN/ECE 5305">S</cbc:ID>
+        <cbc:ID>S</cbc:ID>
         <cbc:Percent>20</cbc:Percent>
         <cac:TaxScheme>
           <cbc:ID schemeID="UN/ECE 5153">VAT</cbc:ID>
