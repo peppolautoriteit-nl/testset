@@ -107,7 +107,7 @@
     </cac:LegalMonetaryTotal>
     <cac:InvoiceLine>
         <cbc:ID>1</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="XOP">4</cbc:InvoicedQuantity>
+        <cbc:InvoicedQuantity unitCode="XBX">4</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">200.00</cbc:LineExtensionAmount>
         <cac:Item>
             <cbc:Name>SimplerInvoicing test invoice</cbc:Name>
