@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- An Order with the absolute minimum of required fields -->
+<Order xmlns="urn:oasis:names:specification:ubl:schema:xsd:Order-2"
+	   xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+	   xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+	<cbc:CustomizationID>urn:fdc:peppol.eu:poacc:trns:order:3</cbc:CustomizationID>
+	<cbc:ProfileID>urn:fdc:peppol.eu:poacc:bis:order_only:3</cbc:ProfileID>
+	<cbc:ID>123</cbc:ID>
+	<cbc:IssueDate>2021-01-07</cbc:IssueDate>
+	<cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+	<cac:ValidityPeriod>
+		<cbc:EndDate>2021-01-31</cbc:EndDate>
+	</cac:ValidityPeriod>
+	<cac:BuyerCustomerParty>
+		<cac:Party>
+			<cbc:EndpointID schemeID="0106">12345678</cbc:EndpointID>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName>Buyer Inc.</cbc:RegistrationName>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:BuyerCustomerParty>
+	<cac:SellerSupplierParty>
+		<cac:Party>
+			<cbc:EndpointID schemeID="0106">87654321</cbc:EndpointID>
+			<cac:PostalAddress>
+				<cac:Country>
+					<cbc:IdentificationCode>NL</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName>Supplier B.V.</cbc:RegistrationName>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:SellerSupplierParty>
+	<cac:TaxTotal>
+		<cbc:TaxAmount currencyID="EUR">21.00</cbc:TaxAmount>
+	</cac:TaxTotal>
+	<cac:AnticipatedMonetaryTotal>
+		<cbc:LineExtensionAmount currencyID="EUR">100.00</cbc:LineExtensionAmount>
+		<cbc:TaxExclusiveAmount currencyID="EUR">100.00</cbc:TaxExclusiveAmount>
+		<cbc:TaxInclusiveAmount currencyID="EUR">121.00</cbc:TaxInclusiveAmount>
+		<cbc:PayableAmount currencyID="EUR">121.00</cbc:PayableAmount>
+	</cac:AnticipatedMonetaryTotal>
+	<cac:OrderLine>
+		<cac:LineItem>
+			<cbc:ID>1</cbc:ID>
+			<cbc:Quantity unitCode="XPK">10</cbc:Quantity>
+			<cbc:LineExtensionAmount currencyID="EUR">100.00</cbc:LineExtensionAmount>
+			<cac:Price>
+				<cbc:PriceAmount currencyID="EUR">10.00</cbc:PriceAmount>
+			</cac:Price>
+			<cac:Item>
+				<cbc:Name>Package of samples</cbc:Name>
+			</cac:Item>
+		</cac:LineItem>
+	</cac:OrderLine>
+</Order>
