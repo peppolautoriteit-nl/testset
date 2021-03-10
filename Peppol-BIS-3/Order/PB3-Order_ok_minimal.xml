@@ -36,20 +36,10 @@
 	<cac:TaxTotal>
 		<cbc:TaxAmount currencyID="EUR">21.00</cbc:TaxAmount>
 	</cac:TaxTotal>
-	<cac:AnticipatedMonetaryTotal>
-		<cbc:LineExtensionAmount currencyID="EUR">100.00</cbc:LineExtensionAmount>
-		<cbc:TaxExclusiveAmount currencyID="EUR">100.00</cbc:TaxExclusiveAmount>
-		<cbc:TaxInclusiveAmount currencyID="EUR">121.00</cbc:TaxInclusiveAmount>
-		<cbc:PayableAmount currencyID="EUR">121.00</cbc:PayableAmount>
-	</cac:AnticipatedMonetaryTotal>
 	<cac:OrderLine>
 		<cac:LineItem>
 			<cbc:ID>1</cbc:ID>
 			<cbc:Quantity unitCode="XPK">10</cbc:Quantity>
-			<cbc:LineExtensionAmount currencyID="EUR">100.00</cbc:LineExtensionAmount>
-			<cac:Price>
-				<cbc:PriceAmount currencyID="EUR">10.00</cbc:PriceAmount>
-			</cac:Price>
 			<cac:Item>
 				<cbc:Name>Package of samples</cbc:Name>
 			</cac:Item>
