@@ -33,9 +33,6 @@
 			</cac:PartyLegalEntity>
 		</cac:Party>
 	</cac:SellerSupplierParty>
-	<cac:TaxTotal>
-		<cbc:TaxAmount currencyID="EUR">21.00</cbc:TaxAmount>
-	</cac:TaxTotal>
 	<cac:OrderLine>
 		<cac:LineItem>
 			<cbc:ID>1</cbc:ID>
