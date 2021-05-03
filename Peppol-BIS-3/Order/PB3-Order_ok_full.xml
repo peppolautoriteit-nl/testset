@@ -230,17 +230,12 @@
         <cbc:ElectronicMail>be.zorg@example.nl</cbc:ElectronicMail>
       </cac:Contact>
     </cac:DeliveryParty>
-    <!--
-         Inconsistency in specifications:
-         Shipment is specified by PEPPOL BIS 3.
-         cac:Shipment/cbc:ID is not allowed in PB3, but is mandatory per UBL.
-         Therefore, shipment cannot be used at this moment.
     <cac:Shipment>
+      <cbc:ID>12345</cbc:ID>
       <cac:TransportHandlingUnit>
         <cbc:ShippingMarks>Handle with care</cbc:ShippingMarks>
       </cac:TransportHandlingUnit>
     </cac:Shipment>
-    -->
   </cac:Delivery>
   <cac:DeliveryTerms>
     <cbc:ID>DAP</cbc:ID>
