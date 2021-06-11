@@ -71,7 +71,7 @@
         </cac:PayeeFinancialAccount>
     </cac:PaymentMeans>
     <cac:PaymentMeans>
-        <cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
+        <cbc:PaymentMeansCode>58</cbc:PaymentMeansCode>
         <cbc:PaymentID>Deb. 10202 / Fact. 12115118</cbc:PaymentID>
         <cac:PayeeFinancialAccount>
             <cbc:ID>NL11 BANK 1111111111</cbc:ID>
