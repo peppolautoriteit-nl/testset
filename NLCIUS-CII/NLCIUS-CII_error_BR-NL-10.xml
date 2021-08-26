@@ -4,7 +4,6 @@
 <!-- Based on 'Example 8: Electricity for EN16931' published by CEN on https://github.com/ConnectingEurope -->
 
 <rsm:CrossIndustryInvoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100 ../schema/D16B%20SCRDM%20(Subset)/uncoupled%20clm/CII/uncefact/data/standard/CrossIndustryInvoice_100pD16B.xsd"
 xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
 xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100"
@@ -53,13 +52,13 @@ www.energieleverancier.nl</ram:Content>
                 </ram:ApplicableProductCharacteristic>
             </ram:SpecifiedTradeProduct>
             <ram:SpecifiedLineTradeAgreement>
+                <ram:BuyerOrderReferencedDocument>
+                    <ram:LineID>1</ram:LineID>
+                </ram:BuyerOrderReferencedDocument>
                 <ram:NetPriceProductTradePrice>
                     <ram:ChargeAmount>0.00880</ram:ChargeAmount>
                     <ram:BasisQuantity unitCode="KWH">0.00880</ram:BasisQuantity>
                 </ram:NetPriceProductTradePrice>
-                <ram:BuyerOrderReferencedDocument>
-                    <ram:LineID>1</ram:LineID>
-                </ram:BuyerOrderReferencedDocument>
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
                 <ram:BilledQuantity unitCode="KWH">16000</ram:BilledQuantity>
@@ -99,13 +98,13 @@ www.energieleverancier.nl</ram:Content>
                 </ram:ApplicableProductCharacteristic>
             </ram:SpecifiedTradeProduct>
             <ram:SpecifiedLineTradeAgreement>
+                <ram:BuyerOrderReferencedDocument>
+                    <ram:LineID>2</ram:LineID>
+                </ram:BuyerOrderReferencedDocument>
                 <ram:NetPriceProductTradePrice>
                     <ram:ChargeAmount>0.00101</ram:ChargeAmount>
                     <ram:BasisQuantity unitCode="KWH">0.00101</ram:BasisQuantity>
                 </ram:NetPriceProductTradePrice>
-                <ram:BuyerOrderReferencedDocument>
-                    <ram:LineID>2</ram:LineID>
-                </ram:BuyerOrderReferencedDocument>
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
                 <ram:BilledQuantity unitCode="KWH">16000</ram:BilledQuantity>
@@ -145,13 +144,13 @@ www.energieleverancier.nl</ram:Content>
                 </ram:ApplicableProductCharacteristic>
             </ram:SpecifiedTradeProduct>
             <ram:SpecifiedLineTradeAgreement>
+                <ram:BuyerOrderReferencedDocument>
+                    <ram:LineID>3</ram:LineID>
+                </ram:BuyerOrderReferencedDocument>
                 <ram:NetPriceProductTradePrice>
                     <ram:ChargeAmount>15.24000</ram:ChargeAmount>
                     <ram:BasisQuantity unitCode="KWT">15.24000</ram:BasisQuantity>
                 </ram:NetPriceProductTradePrice>
-                <ram:BuyerOrderReferencedDocument>
-                    <ram:LineID>3</ram:LineID>
-                </ram:BuyerOrderReferencedDocument>
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
                 <ram:BilledQuantity unitCode="KWT">132</ram:BilledQuantity>
@@ -191,13 +190,13 @@ www.energieleverancier.nl</ram:Content>
                 </ram:ApplicableProductCharacteristic>
             </ram:SpecifiedTradeProduct>
             <ram:SpecifiedLineTradeAgreement>
+                <ram:BuyerOrderReferencedDocument>
+                    <ram:LineID>4</ram:LineID>
+                </ram:BuyerOrderReferencedDocument>
                 <ram:NetPriceProductTradePrice>
                     <ram:ChargeAmount>1.530000</ram:ChargeAmount>
                     <ram:BasisQuantity unitCode="KWT">1.530000</ram:BasisQuantity>
                 </ram:NetPriceProductTradePrice>
-                <ram:BuyerOrderReferencedDocument>
-                    <ram:LineID>4</ram:LineID>
-                </ram:BuyerOrderReferencedDocument>
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
                 <ram:BilledQuantity unitCode="KWT">58</ram:BilledQuantity>
@@ -237,13 +236,13 @@ www.energieleverancier.nl</ram:Content>
                 </ram:ApplicableProductCharacteristic>
             </ram:SpecifiedTradeProduct>
             <ram:SpecifiedLineTradeAgreement>
+                <ram:BuyerOrderReferencedDocument>
+                    <ram:LineID>5</ram:LineID>
+                </ram:BuyerOrderReferencedDocument>
                 <ram:NetPriceProductTradePrice>
                     <ram:ChargeAmount>441</ram:ChargeAmount>
                     <ram:BasisQuantity unitCode="MON">441</ram:BasisQuantity>
                 </ram:NetPriceProductTradePrice>
-                <ram:BuyerOrderReferencedDocument>
-                    <ram:LineID>5</ram:LineID>
-                </ram:BuyerOrderReferencedDocument>
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
                 <ram:BilledQuantity unitCode="MON">1</ram:BilledQuantity>
@@ -283,13 +282,13 @@ www.energieleverancier.nl</ram:Content>
                 </ram:ApplicableProductCharacteristic>
             </ram:SpecifiedTradeProduct>
             <ram:SpecifiedLineTradeAgreement>
+                <ram:BuyerOrderReferencedDocument>
+                    <ram:LineID>6</ram:LineID>
+                </ram:BuyerOrderReferencedDocument>
                 <ram:NetPriceProductTradePrice>
                     <ram:ChargeAmount>678</ram:ChargeAmount>
                     <ram:BasisQuantity unitCode="MON">678</ram:BasisQuantity>
                 </ram:NetPriceProductTradePrice>
-                <ram:BuyerOrderReferencedDocument>
-                    <ram:LineID>6</ram:LineID>
-                </ram:BuyerOrderReferencedDocument>
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
                 <ram:BilledQuantity unitCode="MON">1</ram:BilledQuantity>
@@ -313,13 +312,13 @@ www.energieleverancier.nl</ram:Content>
                 <ram:Name>Huur Transformatoren</ram:Name>
             </ram:SpecifiedTradeProduct>
             <ram:SpecifiedLineTradeAgreement>
+                <ram:BuyerOrderReferencedDocument>
+                    <ram:LineID>7</ram:LineID>
+                </ram:BuyerOrderReferencedDocument>
                 <ram:NetPriceProductTradePrice>
                     <ram:ChargeAmount>83.340000</ram:ChargeAmount>
                     <ram:BasisQuantity unitCode="MON">83.340000</ram:BasisQuantity>
                 </ram:NetPriceProductTradePrice>
-                <ram:BuyerOrderReferencedDocument>
-                    <ram:LineID>7</ram:LineID>
-                </ram:BuyerOrderReferencedDocument>
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
                 <ram:BilledQuantity unitCode="MON">1</ram:BilledQuantity>
@@ -343,13 +342,13 @@ www.energieleverancier.nl</ram:Content>
                 <ram:Name>Huur Schakelinstallaties</ram:Name>
             </ram:SpecifiedTradeProduct>
             <ram:SpecifiedLineTradeAgreement>
+                <ram:BuyerOrderReferencedDocument>
+                    <ram:LineID>8</ram:LineID>
+                </ram:BuyerOrderReferencedDocument>
                 <ram:NetPriceProductTradePrice>
                     <ram:ChargeAmount>190.310000</ram:ChargeAmount>
                     <ram:BasisQuantity unitCode="MON">190.310000</ram:BasisQuantity>
                 </ram:NetPriceProductTradePrice>
-                <ram:BuyerOrderReferencedDocument>
-                    <ram:LineID>8</ram:LineID>
-                </ram:BuyerOrderReferencedDocument>
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
                 <ram:BilledQuantity unitCode="MON">1</ram:BilledQuantity>
@@ -373,13 +372,13 @@ www.energieleverancier.nl</ram:Content>
                 <ram:Name>Huur Overige Apparaten</ram:Name>
             </ram:SpecifiedTradeProduct>
             <ram:SpecifiedLineTradeAgreement>
+                <ram:BuyerOrderReferencedDocument>
+                    <ram:LineID>9</ram:LineID>
+                </ram:BuyerOrderReferencedDocument>
                 <ram:NetPriceProductTradePrice>
                     <ram:ChargeAmount>64.210000</ram:ChargeAmount>
                     <ram:BasisQuantity unitCode="MON">64.210000</ram:BasisQuantity>
                 </ram:NetPriceProductTradePrice>
-                <ram:BuyerOrderReferencedDocument>
-                    <ram:LineID>9</ram:LineID>
-                </ram:BuyerOrderReferencedDocument>
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
                 <ram:BilledQuantity unitCode="MON">1</ram:BilledQuantity>
@@ -403,13 +402,13 @@ www.energieleverancier.nl</ram:Content>
                 <ram:Name>Huur Meterdiensten</ram:Name>
             </ram:SpecifiedTradeProduct>
             <ram:SpecifiedLineTradeAgreement>
+                <ram:BuyerOrderReferencedDocument>
+                    <ram:LineID>10</ram:LineID>
+                </ram:BuyerOrderReferencedDocument>
                 <ram:NetPriceProductTradePrice>
                     <ram:ChargeAmount>64.46000</ram:ChargeAmount>
                     <ram:BasisQuantity unitCode="MON">64.46000</ram:BasisQuantity>
                 </ram:NetPriceProductTradePrice>
-                <ram:BuyerOrderReferencedDocument>
-                    <ram:LineID>10</ram:LineID>
-                </ram:BuyerOrderReferencedDocument>
             </ram:SpecifiedLineTradeAgreement>
             <ram:SpecifiedLineTradeDelivery>
                 <ram:BilledQuantity unitCode="MON">1</ram:BilledQuantity>
@@ -426,23 +425,10 @@ www.energieleverancier.nl</ram:Content>
             </ram:SpecifiedLineTradeSettlement>
         </ram:IncludedSupplyChainTradeLineItem>
         <ram:ApplicableHeaderTradeAgreement>
-            <ram:BuyerTradeParty>
-            <ram:SpecifiedLegalOrganization>
-                <ram:ID schemeID="0191">13524678</ram:ID>
-            </ram:SpecifiedLegalOrganization>
-                <ram:ID>1081119</ram:ID>
-                <ram:Name>Klant</ram:Name>
-                <ram:PostalTradeAddress>
-                    <ram:PostcodeCode>9999 XX</ram:PostcodeCode>
-                    <ram:LineOne>Bedrijfslaan 4</ram:LineOne>
-                    <ram:CityName>ONDERNEMERSTAD</ram:CityName>
-                    <ram:CountryID>NL</ram:CountryID>
-                </ram:PostalTradeAddress>
-            </ram:BuyerTradeParty>
             <ram:SellerTradeParty>
                 <ram:Name>Energieleverancier B.V.</ram:Name>
                 <ram:SpecifiedLegalOrganization>
-                    <ram:ID schemeID="0106">17131139</ram:ID>
+                    <ram:ID schemeID="0109">17131139</ram:ID>
                     <ram:TradingBusinessName>Energieleverancier</ram:TradingBusinessName>
                 </ram:SpecifiedLegalOrganization>
                 <ram:DefinedTradeContact>
@@ -460,6 +446,19 @@ www.energieleverancier.nl</ram:Content>
                     <ram:ID schemeID="VA">NL809561074B01</ram:ID>
                 </ram:SpecifiedTaxRegistration>
             </ram:SellerTradeParty>
+            <ram:BuyerTradeParty>
+                <ram:ID>1081119</ram:ID>
+                <ram:Name>Klant</ram:Name>
+                <ram:SpecifiedLegalOrganization>
+                    <ram:ID schemeID="0106">13524678</ram:ID>
+                </ram:SpecifiedLegalOrganization>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>9999 XX</ram:PostcodeCode>
+                    <ram:LineOne>Bedrijfslaan 4</ram:LineOne>
+                    <ram:CityName>ONDERNEMERSTAD</ram:CityName>
+                    <ram:CountryID>NL</ram:CountryID>
+                </ram:PostalTradeAddress>
+            </ram:BuyerTradeParty>
             <ram:BuyerOrderReferencedDocument>
                 <ram:IssuerAssignedID>PO4711</ram:IssuerAssignedID>
             </ram:BuyerOrderReferencedDocument>
