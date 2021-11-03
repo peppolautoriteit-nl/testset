@@ -428,7 +428,7 @@ www.energieleverancier.nl</ram:Content>
             <ram:SellerTradeParty>
                 <ram:Name>Energieleverancier B.V.</ram:Name>
                 <ram:SpecifiedLegalOrganization>
-                    <ram:ID schemeID="0109">17131139</ram:ID>
+                    <ram:ID schemeID="0106">17131139</ram:ID>
                     <ram:TradingBusinessName>Energieleverancier</ram:TradingBusinessName>
                 </ram:SpecifiedLegalOrganization>
                 <ram:DefinedTradeContact>
@@ -450,7 +450,7 @@ www.energieleverancier.nl</ram:Content>
                 <ram:ID>1081119</ram:ID>
                 <ram:Name>Klant</ram:Name>
                 <ram:SpecifiedLegalOrganization>
-                    <ram:ID schemeID="0106">13524678</ram:ID>
+                    <ram:ID schemeID="0109">13524678</ram:ID>
                 </ram:SpecifiedLegalOrganization>
                 <ram:PostalTradeAddress>
                     <ram:PostcodeCode>9999 XX</ram:PostcodeCode>
