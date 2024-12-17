@@ -41,6 +41,7 @@
     <cac:AccountingCustomerParty>
         <cac:Party>
             <cbc:EndpointID schemeID="9944">NL1234567890</cbc:EndpointID>
+            <cac:PartyIdentification><cbc:ID>aasdf</cbc:ID></cac:PartyIdentification>
             <cac:PostalAddress>
                 <cbc:StreetName>Teststraat 123</cbc:StreetName>
                 <cbc:CityName>Grotestad</cbc:CityName>
