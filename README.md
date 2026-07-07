@@ -1,7 +1,7 @@
 
 # SI-UBL test documents
 
-These are test documents for Simpler invoicing, to use with a validation
+These are test documents for SI-UBL, to use with a validation
 package.
 
 Generally, the tests are placed in a directory with the name of the
@@ -18,12 +18,11 @@ where:
 
 
 For instance, the test file
-    SI-UBL-1.1/SI-UBL1.1-error-BII2-T10-R044.xml
-is a test that violates BII2-T10-R044 from the peppol validation
-artefacts within SI-UBL 1.1.
-    SI-UBL-1.0/SI-UBL1.0-ok-minimal.xml
+    SI-UBL-2.0/SI-UBL-2.0_BR-NL-12_error.xml
+is a test that violates BR-NL-12 from the validation artefacts within SI-UBL 2.0.
+    SI-UBL-2.0/SI-UBL-2.0_ok_minimal.xml
 is a minimal document that should validate under the rules of
-SI-UBL 1.0.
+SI-UBL 2.0.
 
 If you find any faults in these documents, please contact
 SimplerInvoicing.
