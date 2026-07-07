@@ -25,4 +25,4 @@ is a minimal document that should validate under the rules of
 SI-UBL 2.0.
 
 If you find any faults in these documents, please contact
-SimplerInvoicing.
+the NPA.
