@@ -31,7 +31,7 @@
             </cac:PostalAddress>
             <cac:PartyLegalEntity>
                 <cbc:RegistrationName>SimplerInvoicing</cbc:RegistrationName>
-                <cbc:CompanyID schemeID="0106">SITEST00000</cbc:CompanyID>
+                <cbc:CompanyID schemeID="0106">12345678</cbc:CompanyID>
             </cac:PartyLegalEntity>
         </cac:Party>
     </cac:AccountingSupplierParty>

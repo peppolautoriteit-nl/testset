@@ -30,14 +30,14 @@
                 </cac:Country>
             </cac:PostalAddress>
             <cac:PartyTaxScheme>
-                <cbc:CompanyID>NL1111.11.111.B.01</cbc:CompanyID>
+                <cbc:CompanyID>NL123456789B01</cbc:CompanyID>
                 <cac:TaxScheme>
                     <cbc:ID>VAT</cbc:ID>
                 </cac:TaxScheme>
             </cac:PartyTaxScheme>
             <cac:PartyLegalEntity>
                 <cbc:RegistrationName>SimplerInvoicing</cbc:RegistrationName>
-                <cbc:CompanyID schemeID="0106">SITEST00000</cbc:CompanyID>
+                <cbc:CompanyID schemeID="0106">12345678</cbc:CompanyID>
             </cac:PartyLegalEntity>
         </cac:Party>
     </cac:AccountingSupplierParty>
@@ -56,7 +56,7 @@
             </cac:PostalAddress>
             <cac:PartyLegalEntity>
                 <cbc:RegistrationName>Ontvanger</cbc:RegistrationName>
-                <cbc:CompanyID schemeID="0190">11111111</cbc:CompanyID>
+                <cbc:CompanyID schemeID="0190">12345678901234567890</cbc:CompanyID>
             </cac:PartyLegalEntity>
             <cac:PartyLegalEntity>
                 <cbc:RegistrationName>Ontvanger</cbc:RegistrationName>

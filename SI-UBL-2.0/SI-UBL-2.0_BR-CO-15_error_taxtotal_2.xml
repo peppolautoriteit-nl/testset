@@ -49,7 +49,7 @@
         </cac:Country>
       </cac:PostalAddress>
       <cac:PartyTaxScheme>
-        <cbc:CompanyID>NL12345678</cbc:CompanyID>
+        <cbc:CompanyID>NL123456789B01</cbc:CompanyID>
         <cac:TaxScheme>
           <cbc:ID>VAT</cbc:ID>
         </cac:TaxScheme>
